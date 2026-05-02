@@ -154,9 +154,13 @@ project-root/
 ## ✨ Features
 ## 🛍️ Customer Features
 ✅ Beautiful Home Page with Hero Section
+
 ✅ Product Listing with Search & Category Filter
+
 ✅ Sidebar with Category Navigation
+
 ✅ Single Product View with Related Products
+
 ✅ Shopping Cart (Session Based)
 ✅ Checkout & Order Placement
 ✅ My Orders Page (Track Orders)
