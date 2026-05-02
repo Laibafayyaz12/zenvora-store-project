@@ -64,3 +64,116 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🚀 1. Project Folder me jao
+cd C:\Users\Shahbaz Computers\zenvora-store
+##  ⚙️ 2. Dependencies install karo
+composer install
+## 🔑 3. .env file setup
+cp .env.example .env
+
+👉 Agar already hai to skip kar do
+
+## 🔐 4. App key generate karo
+php artisan key:generate
+## 🗄️ 5. Database setup
+
+## 👉 .env file open karo aur ye set karo:
+
+DB_DATABASE=zenvora
+DB_USERNAME=root
+DB_PASSWORD=
+## 📊 6. Tables create karo
+php artisan migrate
+## 🌱 7. Dummy data (products) add karo
+php artisan db:seed
+👉 agar specific:
+php artisan db:seed --class=ProductSeeder
+## 🔗 8. Storage link (images ke liye)
+php artisan storage:link
+## ▶️ 9. Server run karo
+php artisan serve
+## 🌐 10. Browser me open karo
+http://127.0.0.1:8000
+## 📁 Complete File Structure
+project-root/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── ProductController.php
+│   │   │   ├── CartController.php
+│   │   │   ├── CheckoutController.php
+│   │   │   ├── ContactController.php
+│   │   │   ├── AdminController.php
+│   │   │   ├── AdminProductController.php
+│   │   │   ├── AdminOrderController.php
+│   │   │   ├── AdminUserController.php
+│   │   │   └── AdminContactController.php
+│   │   └── Middleware/
+│   │       └── AdminMiddleware.php
+│   └── Models/
+│       ├── Product.php
+│       ├── Order.php
+│       ├── OrderItem.php
+│       ├── Contact.php
+│       └── User.php (updated)
+├── database/
+│   ├── migrations/
+│   │   ├── create_products_table.php
+│   │   ├── create_orders_table.php
+│   │   ├── create_order_items_table.php
+│   │   ├── create_contacts_table.php
+│   │   └── add_is_admin_to_users_table.php
+│   └── seeders/
+│       └── DatabaseSeeder.php
+├── routes/
+│   └── web.php
+└── resources/
+    └── views/
+        ├── layouts/
+        │   └── app.blade.php
+        ├── home.blade.php
+        ├── products.blade.php
+        ├── product-single.blade.php
+        ├── checkout.blade.php
+        ├── contact.blade.php
+        └── admin/
+            ├── dashboard.blade.php
+            ├── products/
+            │   ├── index.blade.php
+            │   ├── create.blade.php
+            │   └── edit.blade.php
+            ├── orders/
+            │   └── index.blade.php
+            ├── order-items.blade.php
+            ├── users/
+            │   └── index.blade.php
+            ├── admins/
+            │   └── index.blade.php
+            └── contacts/
+                └── index.blade.php
+## ✨ Features
+## 🛍️ Customer Features
+✅ Beautiful Home Page with Hero Section
+✅ Product Listing with Search & Category Filter
+✅ Sidebar with Category Navigation
+✅ Single Product View with Related Products
+✅ Shopping Cart (Session Based)
+✅ Checkout & Order Placement
+✅ My Orders Page (Track Orders)
+✅ Contact Form with Email Notification
+✅ User Registration & Login
+✅ Responsive Design (Mobile Friendly)
+## 🔐 Admin Features
+✅ Admin Dashboard with Live Stats
+✅ Products Management (Add, Edit, Delete, Image Upload)
+✅ Orders Management with Status Update
+✅ Users Management
+✅ DataTables Integration (Search, Sort, Pagination)
+✅ Admin Sidebar Navigation
+✅ Revenue Tracking
+✅ Recent Orders on Dashboard                
+## AUTHOR 
+## NAME :LAIBA FAYYAZ
+## ROLL NO : COSC231101014
+## DEMO VIDEO
+https://drive.google.com/file/d/1gLQAaFZNP_XM0viabW2ynhPLOFSIT9pC/view?usp=drivesdk
