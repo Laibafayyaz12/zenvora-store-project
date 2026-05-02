@@ -97,59 +97,108 @@ http://127.0.0.1:8000
 ## 📁 Complete File Structure
 project-root/
 ├── app/
+
 │   ├── Http/
+
 │   │   ├── Controllers/
+
 │   │   │   ├── ProductController.php
+
 │   │   │   ├── CartController.php
+
 │   │   │   ├── CheckoutController.php
+
 │   │   │   ├── ContactController.php
+
 │   │   │   ├── AdminController.php
+
 │   │   │   ├── AdminProductController.php
+
 │   │   │   ├── AdminOrderController.php
+
 │   │   │   ├── AdminUserController.php
+
 │   │   │   └── AdminContactController.php
+
 │   │   └── Middleware/
+
 │   │       └── AdminMiddleware.php
+
 │   └── Models/
 │       ├── Product.php
+
 │       ├── Order.php
+
 │       ├── OrderItem.php
+
 │       ├── Contact.php
+
 │       └── User.php (updated)
 ├── database/
+
 │   ├── migrations/
+
 │   │   ├── create_products_table.php
+
 │   │   ├── create_orders_table.php
+
 │   │   ├── create_order_items_table.php
+
 │   │   ├── create_contacts_table.php
+
 │   │   └── add_is_admin_to_users_table.php
+
 │   └── seeders/
+
 │       └── DatabaseSeeder.php
 ├── routes/
+
 │   └── web.php
+
 └── resources/
+
     └── views/
+    
         ├── layouts/
+        
         │   └── app.blade.php
+        
         ├── home.blade.php
+        
         ├── products.blade.php
+        
         ├── product-single.blade.php
+        
         ├── checkout.blade.php
+        
         ├── contact.blade.php
         └── admin/
+        
             ├── dashboard.blade.php
+            
             ├── products/
+            
             │   ├── index.blade.php
+            
             │   ├── create.blade.php
+            
             │   └── edit.blade.php
             ├── orders/
+            
             │   └── index.blade.php
+
             ├── order-items.blade.php
+            
             ├── users/
+            
             │   └── index.blade.php
+            
             ├── admins/
+            
             │   └── index.blade.php
+            
             └── contacts/
+            
                 └── index.blade.php
 ## ✨ Features
 ## 🛍️ Customer Features
@@ -162,20 +211,34 @@ project-root/
 ✅ Single Product View with Related Products
 
 ✅ Shopping Cart (Session Based)
+
 ✅ Checkout & Order Placement
+
 ✅ My Orders Page (Track Orders)
+
 ✅ Contact Form with Email Notification
+
 ✅ User Registration & Login
+
 ✅ Responsive Design (Mobile Friendly)
+
 ## 🔐 Admin Features
 ✅ Admin Dashboard with Live Stats
+
 ✅ Products Management (Add, Edit, Delete, Image Upload)
+
 ✅ Orders Management with Status Update
+
 ✅ Users Management
+
 ✅ DataTables Integration (Search, Sort, Pagination)
+
 ✅ Admin Sidebar Navigation
+
 ✅ Revenue Tracking
-✅ Recent Orders on Dashboard                
+
+✅ Recent Orders on Dashboard
+
 ## AUTHOR 
 ## NAME :LAIBA FAYYAZ
 ## ROLL NO : COSC231101014
