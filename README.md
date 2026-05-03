@@ -95,6 +95,9 @@ php artisan serve
 ## 🌐 10. Browser me open karo
 http://127.0.0.1:8000
 ## 📁 Complete File Structure
+## 📁 Complete File Structure
+
+
 project-root/
 │
 ├── app/
@@ -182,38 +185,6 @@ project-root/
 ├── .env
 ├── composer.json
 └── artisan
-## 📁 Complete File Structure
-
-```
-project-root/
-│
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── Frontend/
-│   │   │   │   ├── HomeController.php
-│   │   │   │   ├── ProductController.php
-│   │   │   │   ├── CartController.php
-│   │   │   │   ├── CheckoutController.php
-│   │   │   │   └── ContactController.php
-│   │   │   │
-│   │   │   ├── Admin/
-│   │   │   │   ├── DashboardController.php
-│   │   │   │   ├── ProductController.php
-│   │   │   │   ├── OrderController.php
-│   │   │   │   ├── UserController.php
-│   │   │   │   └── ContactController.php
-│   │   │
-│   │   └── Middleware/
-│   │       └── AdminMiddleware.php
-│
-├── routes/
-│   └── web.php
-│
-└── resources/
-    └── views/
-        ├── frontend/
-        └── admin/
 ```
 ## ✨ Features
 ## 🛍️ Customer Features
