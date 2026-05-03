@@ -182,6 +182,39 @@ project-root/
 ├── .env
 ├── composer.json
 └── artisan
+## 📁 Complete File Structure
+
+```
+project-root/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Frontend/
+│   │   │   │   ├── HomeController.php
+│   │   │   │   ├── ProductController.php
+│   │   │   │   ├── CartController.php
+│   │   │   │   ├── CheckoutController.php
+│   │   │   │   └── ContactController.php
+│   │   │   │
+│   │   │   ├── Admin/
+│   │   │   │   ├── DashboardController.php
+│   │   │   │   ├── ProductController.php
+│   │   │   │   ├── OrderController.php
+│   │   │   │   ├── UserController.php
+│   │   │   │   └── ContactController.php
+│   │   │
+│   │   └── Middleware/
+│   │       └── AdminMiddleware.php
+│
+├── routes/
+│   └── web.php
+│
+└── resources/
+    └── views/
+        ├── frontend/
+        └── admin/
+```
 ## ✨ Features
 ## 🛍️ Customer Features
 ✅ Beautiful Home Page with Hero Section
