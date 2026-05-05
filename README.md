@@ -64,17 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-## 🚀 1. Project Folder me jao
+## 🚀 1. Project Folder
+
 cd C:\Users\Shahbaz Computers\zenvora-store
-##  ⚙️ 2. Dependencies install karo
+
+##  ⚙️ 2. Dependencies install 
+
 composer install
+
 ## 🔑 3. .env file setup
+
 cp .env.example .env
 
-👉 Agar already hai to skip kar do
-
 ## 🔐 4. App key generate karo
+
 php artisan key:generate
+
 ## 🗄️ 5. Database setup
 
 ## 👉 .env file open karo aur ye set karo:
@@ -82,21 +87,28 @@ php artisan key:generate
 DB_DATABASE=zenvora
 DB_USERNAME=root
 DB_PASSWORD=
+
 ## 📊 6. Tables create karo
+
 php artisan migrate
-## 🌱 7. Dummy data (products) add karo
+
+## 🌱 7. Dummy data (products) 
+
 php artisan db:seed
 👉 agar specific:
 php artisan db:seed --class=ProductSeeder
-## 🔗 8. Storage link (images ke liye)
-php artisan storage:link
-## ▶️ 9. Server run karo
-php artisan serve
-## 🌐 10. Browser me open karo
-http://127.0.0.1:8000
-## 📁 Complete File Structure
-## 📁 Complete File Structure
 
+## 🔗 8. Storage link (images)
+
+php artisan storage:link
+
+## ▶️ 9. Server 
+
+php artisan serve
+
+## 🌐 10. Browser 
+
+http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
 
