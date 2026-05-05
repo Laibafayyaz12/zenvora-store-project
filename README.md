@@ -97,7 +97,7 @@ php artisan migrate
 ## 🌱 7. Dummy data (products) 
 
 php artisan db:seed
-👉 agar specific:
+
 php artisan db:seed --class=ProductSeeder
 
 ## 🔗 8. Storage link (images)
