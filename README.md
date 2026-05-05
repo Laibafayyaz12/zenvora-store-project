@@ -82,10 +82,12 @@ php artisan key:generate
 
 ## 🗄️ 5. Database setup
 
-## 👉 .env file open karo aur ye set karo:
+## 👉 .env file
 
 DB_DATABASE=zenvora
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 ## 📊 6. Tables create karo
